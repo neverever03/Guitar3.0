@@ -1,0 +1,23 @@
+{"total":21,"rows":[
+	{"date":1,"filename":"放水量"},
+	{"date":2,"filename":"孔数"},
+	{"date":3,"filename":"负压"},
+	{"date":4,"filename":"浓度"},
+	{"date":5,"filename":"流量"},	
+	{"date":6,"filename":"冒顶"},
+	{"date":7,"filename":"断层"},
+	{"date":8,"filename":"入井车辆完好"},
+	{"date":9,"filename":"作业环境安全状况"},
+	{"date":10,"filename":"进度情况"},
+	{"date":11,"filename":"A类"},
+	{"date":12,"filename":"B类"},
+	{"date":13,"filename":"C类"},
+	{"date":14,"filename":"冲刷带"},
+	{"date":15,"filename":"破碎带"},
+	{"date":16,"filename":"重大"},
+	{"date":17,"filename":"主要"},
+	{"date":18,"filename":"正常"},
+	{"date":19,"filename":"违规"},
+	{"date":20,"filename":"重大"},
+	{"date":21,"filename":"主要"}
+]}

@@ -1,0 +1,146 @@
+[{
+	"id":"1",
+	"name":"A.1总要求",
+	"size":"",
+	"date":"安全管理",
+	"children":[{
+		"id":"P1",
+		"name":"P",
+		"size":"120 MB",
+		"date":"安全管理",
+		"children":[{
+			"id":"21",
+			"name":"A1.1.1建立要求",
+			"size":"",
+			"date":"安全管理",
+			"state":"closed",
+			"children":[{
+				"id":"211",
+				"name":"A1.1.1.1煤矿管理层认同煤矿安全风险预控管理体系的管理理念，了解相关概念",
+				"size":"142 KB",
+				"date":"安全管理"
+			},{
+				"id":"212",
+				"name":"A1.1.1.2基于对现有安全管理系统评价的基础上，按照Q/SHJ1002-2014全面构建本煤矿安全风险预控管理体系",
+				"size":"5 KB",
+				"date":"安全管理"
+			}]
+		},{
+			"id":"551",
+			"name":"MySQL",
+			"size":"",
+			"date":"01/13/2010",
+			"state":"closed",
+			"children":[{
+				"id":"221",
+				"name":"my.ini",
+				"size":"10 KB",
+				"date":"02/26/2009"
+			},{
+				"id":"222",
+				"name":"my-huge.ini",
+				"size":"5 KB",
+				"date":"02/26/2009"
+			},{
+				"id":"223",
+				"name":"my-large.ini",
+				"size":"5 KB",
+				"date":"02/26/2009"
+			}]
+		}]
+	},{
+		"id":"D1",
+		"name":"D",
+		"size":"",
+		"date":"01/20/2010",
+		"children":[{
+			"id":"31",
+			"name":"eclipse.exe",
+			"size":"56 KB",
+			"date":"05/19/2009"
+		},{
+			"id":"32",
+			"name":"eclipse.ini",
+			"size":"1 KB",
+			"date":"04/20/2010"
+		},{
+			"id":"33",
+			"name":"notice.html",
+			"size":"7 KB",
+			"date":"03/17/2005"
+		}]
+	}]
+},
+{
+	"id":"1",
+	"name":"A.2安全方针",
+	"size":"",
+	"date":"02/19/2010",
+	"children":[{
+		"id":"P2",
+		"name":"P",
+		"size":"120 MB",
+		"date":"03/20/2010",
+		"children":[{
+			"id":"21",
+			"name":"Java",
+			"size":"",
+			"date":"01/13/2010",
+			"state":"closed",
+			"children":[{
+				"id":"211",
+				"name":"java.exe",
+				"size":"142 KB",
+				"date":"01/13/2010"
+			},{
+				"id":"212",
+				"name":"jawt.dll",
+				"size":"5 KB",
+				"date":"01/13/2010"
+			}]
+		},{
+			"id":"22",
+			"name":"MySQL",
+			"size":"",
+			"date":"01/13/2010",
+			"state":"closed",
+			"children":[{
+				"id":"221",
+				"name":"my.ini",
+				"size":"10 KB",
+				"date":"02/26/2009"
+			},{
+				"id":"222",
+				"name":"my-huge.ini",
+				"size":"5 KB",
+				"date":"02/26/2009"
+			},{
+				"id":"223",
+				"name":"my-large.ini",
+				"size":"5 KB",
+				"date":"02/26/2009"
+			}]
+		}]
+	},{
+		"id":"D2",
+		"name":"D",
+		"size":"",
+		"date":"01/20/2010",
+		"children":[{
+			"id":"31",
+			"name":"eclipse.exe",
+			"size":"56 KB",
+			"date":"05/19/2009"
+		},{
+			"id":"32",
+			"name":"eclipse.ini",
+			"size":"1 KB",
+			"date":"04/20/2010"
+		},{
+			"id":"33",
+			"name":"notice.html",
+			"size":"7 KB",
+			"date":"03/17/2005"
+		}]
+	}]
+}]

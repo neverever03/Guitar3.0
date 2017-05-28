@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BuyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-24T08:25:08" hostname="DESKTOP-O3VEO63" time="1.526">
+  <properties/>
+  <testcase name="testSomeLibraryMethod" classname="BuyTest" time="1.526"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[十一月 24, 2016 4:25:08 下午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+十一月 24, 2016 4:25:09 下午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+十一月 24, 2016 4:25:09 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9k15gp43qrqxpj8|3a227912, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9k15gp43qrqxpj8|3a227912, idleConnectionTestPeriod -> 0, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://localhost:3306/medicine, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+]]></system-err>
+</testsuite>

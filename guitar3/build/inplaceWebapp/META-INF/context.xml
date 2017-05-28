@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/demo" auth="Container"
+    driverClass="com.mysql.jdbc.Driver"
+    jdbcUrl="jdbc:mysql://localhost:3306/medicine"
+    user="root"
+    password="123456"                                                     
+    factory="org.apache.naming.factory.BeanFactory"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource"
+    maxPoolSize="50"   
+    minPoolSize="15"
+    acquireIncrement="3"
+    acquireRetryAttempts = "0"
+    acquireRetryDelay = "3000"
+    breakAfterAcquireFailure = "false"
+    maxConnectionAge = "60"
+    maxIdleTime = "30"
+    maxIdleTimeExcessConnections = "10"
+    idleConnectionTestPeriod = "15"
+    testConnectionOnCheckout = "true"
+    preferredTestQuery = "SELECT 1"
+    debugUnreturnedConnectionStackTraces = "true"  
+    autoCommitOnClose="true"/>
+</Context>

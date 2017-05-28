@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!-- <constant name="struts.ui.theme" value="simple" />
+	<constant name="conststruts.devMode" value="true"/>
+	<constant name="struts.i18n.encoding" value="utf-8" /> -->
+	<constant name="struts.multipart.saveDir" value="/tmp"></constant>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />  
+	<package name="medicine" namespace=""  extends="json-default" >
+	<action name="deteleg"  class="action.GuitarAction" method="deleteguitar">
+			<result name="jsonObject" type="json">
+				<!-- 为该Result指定参数 -->
+				<param name="noCache">true</param>
+				<param name="contentType">text/html</param>
+				<!-- 设置只序列Action的map属性 -->
+				<param name="root">jsonObject</param>
+			</result>					
+		</action>
+		<action name="searchg"  class="action.GuitarAction" method="search">
+			<result name="jsonArray" type="json">
+				<!-- 为该Result指定参数 -->
+				<param name="noCache">true</param>
+				<param name="contentType">text/html</param>
+				<!-- 设置只序列Action的map属性 -->
+				<param name="root">jsonArray</param>
+			</result>						
+		</action>
+		<action name="addg"  class="action.GuitarAction" method="addguitar">
+			<result name="jsonObject" type="json">
+				为该Result指定参数
+				<param name="noCache">true</param>
+				<param name="contentType">text/html</param>
+				设置只序列Action的map属性
+				<param name="root">jsonObject</param>
+			</result>					
+		</action>
+		
+		
+	</package>
+	<package name="" extends="struts-default">
+	<action name="*">
+			<result>/WEB-INF/content/{1}.jsp</result>
+		</action>
+		
+	</package>
+</struts>
