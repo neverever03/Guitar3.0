@@ -1,4 +1,6 @@
 # Guitar3.0-----实现数据库切换
+## 项目结构
+![image](https://github.com/neverever03/Guitar3.0/blob/master/v38.PNG)
 ## 界面截图--如何实现切换？
 ![image](https://github.com/neverever03/Guitar3.0/blob/master/v37.PNG)
 ## 运行界面截图--初始界面
